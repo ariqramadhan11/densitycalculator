@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator Densitas</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <div class="calculator">
+    <h1>Kalkulator Densitas</h1>
+    <label for="mass">Massa (kg):</label>
+    <input type="number" id="mass" step="0.01">
+    <label for="volume">Volume (m³):</label>
+    <input type="number" id="volume" step="0.01">
+    <button onclick="calculateDensity()">Hitung</button>
+    <p>Densitas (kg/m³): <span id="density"></span></p>
+  </div>
+  <script src="script.js"></script> </body>
+</html>
